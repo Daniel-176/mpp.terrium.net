@@ -19,7 +19,7 @@ function mixin(obj1, obj2) {
 
 function Client(uri) {
 	EventEmitter.call(this);
-	this.uri = uri;
+	this.uri = "wss://7f8ae679-733d-4ed0-8b8c-538e3abbe703-00-x0mzzhcsj9el.picard.replit.dev";
 	this.ws = undefined;
 	this.serverTimeOffset = 0;
 	this.user = undefined;
